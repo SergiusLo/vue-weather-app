@@ -201,8 +201,8 @@ export default {
     const error = ref("");
     const mapboxSearchResults = ref([]);
     const searchError = ref(false);
-    const openWeatherAPIKey = process.env.VUE_APP_ENV_WEATHER_APP_API_KEY
-    const mapboxAPIKey = process.env.VUE_APP_ENV_MAPBOX_API_KEY
+    const openWeatherAPIKey = "47c2da305e4ed0b3ce57e7376f31b9c7";
+    const mapboxAPIKey = "pk.eyJ1Ijoiam9obmtvbWFybmlja2kiLCJhIjoiY2t5NjFzODZvMHJkaDJ1bWx6OGVieGxreSJ9.IpojdT3U3NENknF6_WhR2Q"
 
 
     const getSearchResults = async () => {

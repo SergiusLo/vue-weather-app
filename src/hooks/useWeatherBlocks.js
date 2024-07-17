@@ -7,8 +7,8 @@ export function useWeatherBlocks() {
   const city = ref("");
   const blockToDelete = ref(null);
   const showModal = ref(false);
-  const openWeatherAPIKey = process.env.VUE_APP_ENV_WEATHER_APP_API_KEY
-  const openCageAPIKey = process.env.VUE_APP_ENV_OPENCAGE_APP_API_KEY
+  const openWeatherAPIKey = "47c2da305e4ed0b3ce57e7376f31b9c7";
+  const openCageAPIKey = "ddb9bb2cf22d47fb8dda8710e2d9e1ce";
 
   const addWeatherBlock = async (city) => {
     try {

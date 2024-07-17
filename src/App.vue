@@ -77,9 +77,8 @@ export default {
     const mapboxSearchResults = ref([]);
     const searchError = ref(false);
     let queryTimeout = null;
-    const mapboxAPIKey =
-    process.env.VUE_APP_ENV_MAPBOX_API_KEY;
 
+    const mapboxAPIKey = "pk.eyJ1Ijoiam9obmtvbWFybmlja2kiLCJhIjoiY2t5NjFzODZvMHJkaDJ1bWx6OGVieGxreSJ9.IpojdT3U3NENknF6_WhR2Q"
     const favoriteBlocks = ref([]);
     const currentTab = ref("search");
     const currentDayOrWeek = ref("day");
