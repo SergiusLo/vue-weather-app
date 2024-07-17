@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100wv;
+  min-height: 100vh;
+  background: rgb(95, 163, 39);
+  background: linear-gradient(
+    90deg,
+    rgba(95, 163, 39, 1) 0%,
+    rgba(63, 187, 212, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background: #e3bc4b;
+  color: #fff;
+  border-radius: 10px;
+  border: 2px solid #b99935;
+  padding: 10px 15px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: transform 500ms ease;
+}
+.button:hover {
+  transform: scale(104%);
+}
+.button:disabled {
+  background: #a37638;
+  cursor: not-allowed;
+}
+.title {
+  margin-bottom: 10px;
+}
